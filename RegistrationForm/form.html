@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cascade.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&display=swap" rel="stylesheet">
+    <title>Hackathon Registration</title>
+    
+</head>
+<body>
+        <h1>CODEHACK 4.0</h1>
+        <p></p>
+        <form id="hackathon-registration-form" method="POST" action="">
+
+
+            <fieldset>
+                <h3>Know Us!</h3>
+                <p>The CodeHack hackathon is South Asia's largest hackathon having participants from many countries and all the states of India. CodeHack is well known for large pool of programmers jamming their keyboards and building applications for social cause. CodeHack also sees large number of sponsors and many of them provide internships to the able candidates.</p>
+                <p><strong>What are you waiting for? Register Today!</strong></p>
+                <video controls="controls" src="videoplayback.mp4">
+                    Your browser does not support the HTML5 Video element.
+                </video>
+            </fieldset>
+          <!-- Form contents will go here -->
+          <fieldset>
+            <h3>Personal Information</h3>
+
+            <label>Name:</label>
+            <input type="text"/>
+
+            <label>Gender</label>
+            <select name="gender" id="gender_select">
+              <option value="">Male</option>
+              <option value="">Female</option>
+              <option value="">Other</option>
+            </select>
+
+            <label>Date of Birth:</label>
+            <input type="date">
+            <label>Email:</label>
+            <input type="email"/>
+
+            <label>Registration Number:</label>
+            <input type="text"/>
+            
+            <label>Phone Number:</label>
+            <input type="number"/>
+
+            <label>Address:</label>
+            <textarea name="" id="" cols="70" rows="10"></textarea>
+          </fieldset>
+
+
+
+          <fieldset>
+            <h3>Team Details</h3>
+
+            <label>Team Name:</label>
+            <input type="text"/>
+
+
+            <label>Choose your domain: </label>
+            <div>
+              <input type="radio" name="domain">Healthcare
+              <input type="radio" name="domain">Defence
+              <input type="radio" name="domain">Agriculture
+              <input type="radio" name="domain">Education
+              <input type="radio" name="domain">Other
+            </div>
+            <p></p>
+            <label for="size">Technologies used: </label>
+            <div>
+              <input type="checkbox" name="domain"> AI
+              <input type="checkbox" name="domain">Web Development
+              <input type="checkbox" name="domain">App Development
+              <input type="checkbox" name="domain">Blockchain
+              <input type="checkbox" name="domain"> IOT
+              </div>
+          </fieldset>
+
+          <fieldset>
+              <h3>Problem Statement</h3>
+              <label>Submit your idea below: </label>
+              <textarea name="" id="" cols="70" rows="10"></textarea>
+              <p></p>
+              <h3>OR</h3>
+              <label>Upload a <strong>PDF/DOCX</strong> File: </label>
+              <input type="file">
+          </fieldset>
+
+          <fieldset>
+            <h3>Additional Information</h3>
+            <label for="size">Shirt Size (every participant will recieve a T-Shirt from our sponsor):</label>
+            <div>
+              <input type="radio" name="size" value="xsmall">XS
+              <input type="radio" name="size" value="small">S
+              <input type="radio" name="size" value="medium">M
+              <input type="radio" name="size" value="large">L
+              <input type="radio" name="size" value="xlarge">XL
+              <br/>
+              <p></p>
+              <input type="checkbox" name="pickup"> I acknowledge that the information I have provided is correct and can be used for official purposes.
+    
+            </div>
+          </fieldset>
+          <button type="button" class = "button">Submit Form</button>
+          <button type="button" class = "button">Reset Form</button>
+    </head>
+</body>
+</html>
