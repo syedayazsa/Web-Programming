@@ -30,6 +30,10 @@ body{
 
 .fld{
     margin-top: 80px;
-    margin-left: 10em;
-    margin-bottom: 10em;
+    margin-left: 0em;
+    margin-bottom: 0em;
+    float: left;
+}
+.iframes{
+    float: right;
 }
