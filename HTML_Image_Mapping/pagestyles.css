@@ -1,0 +1,26 @@
+.img{
+    margin-top: 80px;
+    margin-left: 10em;
+    margin-bottom: 10em;
+    height: 500px;
+    width: 700px;
+    border-radius: 20px;
+}
+
+body{
+    background-color: rgb(188, 255, 188);
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Oswald', sans-serif;
+}
+
+.h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    margin-left: 20em;
+    margin-right: 20em;
+    border-radius: 10px;
+}

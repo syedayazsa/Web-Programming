@@ -1,0 +1,35 @@
+.heading{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    margin-left: 20em;
+    margin-right: 20em;
+    background-color: rgb(170, 65, 65);
+    border-radius: 10px;
+}
+
+h2{
+    font-family: 'Oswald', sans-serif;
+}
+
+.Intro{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+body{
+    background-color: rgb(188, 255, 188);
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.field{
+    height: 500px;
+    width: 700px;
+    border-radius: 20px;
+}
+
+.fld{
+    margin-top: 80px;
+    margin-left: 10em;
+    margin-bottom: 10em;
+}
